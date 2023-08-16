@@ -45,13 +45,41 @@ export default function Navbar() {
       </ul>
 
       {/*social*/}
-      <div className="flex fixed flex-column top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-column top-[35%] left-0">
         <ul>
-          <a href="/">
-            LinkedIn <FaFacebook />
-          </a>
-          <a href="/">Github</a>
-          <a href="/"></a>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-103px] hover:ml-[-10px] duration-300 bg-blue-600">
+            <a
+              href="/"
+              className="flex justify-between items-center w-full text-gray-300"
+            >
+              LinkedIn <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-103px] hover:ml-[-10px] duration-300 bg-[#333333]">
+            <a
+              href="/"
+              className="flex justify-between items-center w-full text-gray-300"
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-103px] hover:ml-[-10px] duration-300 bg-[#9E7682]">
+            <a
+              href="/"
+              className="flex justify-between items-center w-full text-gray-300"
+            >
+              Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-103px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+            <a
+              href="/"
+              className="flex justify-between items-center w-full text-gray-300"
+            >
+              Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
         </ul>
       </div>
     </div>
