@@ -13,16 +13,9 @@ export default function () {
         <h1 className="text-[#F7C4A5] text-4xl font-bold sm:text-7xl">
           Justinaro Nhem
         </h1>
-        <h2 className="text-[#9E7682] text-4xl sm:text-7xl">
+        <h2 className="text-[#9E7682] text-4xl sm:text-7xl pb-4">
           I'm a Full Stack Developer
         </h2>
-        <p className="py-4 max-w">
-          Highly motivated with a passion for learning all things tech. I
-          started coding in university and have since then developed a passion
-          for the tech industry. As a developer I am always looking to learn and
-          apply new technologies to my projects. I am driven and ready for any
-          challenges.
-        </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F7C4A5] hover:text-[#4d4861] hover:border-[#4d4861]">
             View Work{" "}
