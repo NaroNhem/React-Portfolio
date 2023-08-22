@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiArrowNarrowDown } from "react-icons/hi";
 
 export default function () {
   return (
@@ -20,7 +20,7 @@ export default function () {
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F7C4A5] hover:text-[#4d4861] hover:border-[#4d4861]">
             View Work{" "}
             <span className="group-hover:ml-[15px] duration-300">
-              <HiArrowNarrowRight className="ml-3" />
+              <HiArrowNarrowDown className="ml-3" />
             </span>
           </button>
         </div>
