@@ -19,7 +19,7 @@ export default function Skills() {
             These are the technoligies that I've worked with
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 text-white font-thin">
           <div className="hover:scale-110 duration-500">
             <img src={HTML} alt="HTML icon" className="w-24 mx-auto"></img>
             <p className="my-4">HTML</p>
@@ -46,7 +46,7 @@ export default function Skills() {
           </div>
           <div className="hover:scale-110 duration-500">
             <img src={react} alt="HTML icon" className="w-24 mx-auto"></img>
-            <p className="my-4">react</p>
+            <p className="my-4">React</p>
           </div>
         </div>
       </div>
