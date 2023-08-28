@@ -9,10 +9,10 @@ import react from "../assets/react.png";
 
 export default function Skills() {
   return (
-    <div name="skills" className="bg-[#605770] w-full h-screen">
+    <div name="skills" className="bg-[#474748] w-full h-screen">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#F7C4A5] text-gray-300 ">
+          <p className="text-4xl font-bold inline border-b-4 border-[#CA2E55] text-gray-300 ">
             Skills
           </p>
           <p className="py-4 text-gray-300">

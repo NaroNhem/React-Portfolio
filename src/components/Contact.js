@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#605770] flex justify-center items-center p-4"
+      className="w-full h-screen bg-[#474748] flex justify-center items-center p-4"
     >
       <form
         method="POST"
@@ -12,12 +12,11 @@ export default function Contact() {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#F7C4A5] text-white">
+          <p className="text-4xl font-bold inline border-b-4 border-[#CA2E55] text-white">
             Contact
           </p>
           <p className="py-4 text-white">
-            // Submit the form below or send me an email at
-            n.justinaro@gmail.com
+            Submit the form below or send me an email at n.justinaro@gmail.com
           </p>
         </div>
         <input
@@ -33,7 +32,7 @@ export default function Contact() {
           name="email"
         />
         <textarea className="p-2 rounded" name="message" rows="10"></textarea>
-        <button className="text-white border-2 hover:bg-[#F7C4A5] hover:border-[#F7C4A5] px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-[#FFE0B5] hover:border-[#FFE0B5] hover:text-[#09090B] px-4 py-3 my-8 mx-auto flex items-center font-light">
           Let's Collaborate
         </button>
       </form>

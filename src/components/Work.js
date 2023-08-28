@@ -4,10 +4,10 @@ import Coffeeroasters from "../assets/Coffeeroasters.png";
 
 export default function Work() {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#605770]">
+    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#474748]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#F7C4A5] text-gray-300 ">
+          <p className="text-4xl font-bold inline border-b-4 border-[#CA2E55] text-gray-300 ">
             Work
           </p>
           <p className="py-4 text-gray-300">Here are some of my recent work</p>
