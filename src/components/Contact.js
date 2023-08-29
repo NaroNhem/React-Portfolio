@@ -32,7 +32,7 @@ export default function Contact() {
           name="email"
         />
         <textarea className="p-2 rounded" name="message" rows="10"></textarea>
-        <button className="text-white border-2 hover:bg-[#FFE0B5] hover:border-[#FFE0B5] hover:text-[#09090B] px-4 py-3 my-8 mx-auto flex items-center font-light">
+        <button className="text-white border-2 hover:bg-[#68ffd4] hover:border-[#68ffd4] hover:text-[#09090B] px-4 py-3 my-8 mx-auto flex items-center font-light">
           Let's Collaborate
         </button>
       </form>

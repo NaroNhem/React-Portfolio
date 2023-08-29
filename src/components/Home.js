@@ -18,7 +18,7 @@ export default function () {
           I'm a Full Stack Developer
         </h2>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FFE0B5] hover:text-[#4d4861] hover:border-[#4d4861]">
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#68ffd4] hover:text-[#4d4861] hover:border-[#4d4861]">
             <Link to="work" smooth={true} duration={500}>
               View Work
             </Link>
