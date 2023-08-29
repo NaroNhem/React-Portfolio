@@ -11,7 +11,7 @@ export default function () {
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p> Hi, my name is </p>
-        <h1 className="text-[#FFE0B5] text-4xl font-bold sm:text-7xl">
+        <h1 className="text-[#68ffd4] text-4xl font-bold sm:text-7xl">
           Justinaro Nhem
         </h1>
         <h2 className="text-[#CA2E55] text-4xl sm:text-7xl pb-4">
