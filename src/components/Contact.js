@@ -24,14 +24,21 @@ export default function Contact() {
           type="text"
           placeholder="Name"
           name="name"
+          required
         />
         <input
           type="email"
           className="my-4 p-2 rounded"
           placeholder="Email"
           name="email"
+          required
         />
-        <textarea className="p-2 rounded" name="message" rows="10"></textarea>
+        <textarea
+          className="p-2 rounded"
+          name="message"
+          rows="10"
+          required
+        ></textarea>
         <button className="text-white border-2 hover:bg-[#68ffd4] hover:border-[#68ffd4] hover:text-[#09090B] px-4 py-3 my-8 mx-auto flex items-center font-light">
           Let's Collaborate
         </button>

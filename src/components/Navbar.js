@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo-dark.png";
 import { Link } from "react-scroll";
-import Resume from "../Documemts/nhem_resume.pdf";
+import Resume from "../Documemts/Justinaro_resume.pdf";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
