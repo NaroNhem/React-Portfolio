@@ -16,11 +16,9 @@ export default function About() {
           </div>
           <div>
             <p>
-              Highly motivated with a passion for learning all things tech. I
-              started coding in university and have since then developed a
-              passion for the tech industry. As a developer I am always looking
-              to learn and apply new technologies to my projects. I am driven
-              and ready for any challenges.
+              I'm a front-end developer from Philadelphia. I currently work as a
+              web developer at Independence Blue Cross. I'm passionate about
+              developing and designing innovative front-end experiences.
             </p>
           </div>
         </div>
