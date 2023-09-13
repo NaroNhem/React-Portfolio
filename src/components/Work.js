@@ -1,6 +1,8 @@
 import React from "react";
 import IpTracker from "../assets/IpTracker.png";
 import Coffeeroasters from "../assets/Coffeeroasters.png";
+import Etch from "../assets/Etch.png";
+import Pkmn from "../assets/Pkmn.png";
 
 export default function Work() {
   return (
@@ -64,6 +66,66 @@ export default function Work() {
                 </a>
                 <a
                   href="https://github.com/NaroNhem/Coffee-subscription"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Etch})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100 text-center  duration-300">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Etch-a-Sketch
+              </span>
+              <div className="pt-8 text-center flex items-center gap-4">
+                <a
+                  href="https://naronhem.github.io/Etch-a-Sketch/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/NaroNhem/Etch-a-Sketch"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Pkmn})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100 text-center  duration-300">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                PokeDex
+              </span>
+              <div className="pt-8 text-center flex items-center gap-4">
+                <a
+                  href="https://naronhem.github.io/Pokedex/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/NaroNhem/Pokedex"
                   target="_blank"
                   rel="noreferrer"
                 >
