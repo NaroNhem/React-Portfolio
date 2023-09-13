@@ -6,7 +6,7 @@ import Pkmn from "../assets/Pkmn.png";
 
 export default function Work() {
   return (
-    <div name="work" className="w-full h-screen text-white bg-[#474748]">
+    <div name="work" className="w-full h-full text-white bg-[#474748]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-[#CA2E55] text-white">
