@@ -15,7 +15,7 @@ export default function () {
           Justinaro Nhem
         </h1>
         <h2 className="text-[#CA2E55] text-4xl sm:text-7xl pb-4">
-          I'm a Full Stack Developer
+          I'm a Front End Developer
         </h2>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#68ffd4] hover:text-[#4d4861] hover:border-[#4d4861]">
